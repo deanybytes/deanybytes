@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 30" width="100%" height="30">
+  <defs>
+    <!-- Laser Beam Gradient -->
+    <linearGradient id="divLaser" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FF9D" stop-opacity="0" />
+      <stop offset="25%" stop-color="#00FF9D" stop-opacity="0.4" />
+      <stop offset="50%" stop-color="#34D399" stop-opacity="1" />
+      <stop offset="75%" stop-color="#00FF9D" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#00FF9D" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Node Glow Filter -->
+    <filter id="divGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes spinDiamond {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    .rotating-node {
+      transform-origin: 425px 15px;
+      animation: spinDiamond 8s linear infinite;
+    }
+  </style>
+
+  <!-- Central Laser Line -->
+  <line x1="0" y1="15" x2="850" y2="15" stroke="url(#divLaser)" stroke-width="1.8" />
+
+  <!-- Orbiting Rings & Central Node -->
+  <circle cx="425" cy="15" r="12" fill="#02140D" stroke="#00FF9D" stroke-width="1.5" stroke-dasharray="4,2" />
+  
+  <!-- Rotating Diamond Node -->
+  <g class="rotating-node">
+    <polygon points="425,7 433,15 425,23 417,15" fill="#00FF9D" filter="url(#divGlow)" />
+  </g>
+
+  <!-- Central Core Dot -->
+  <circle cx="425" cy="15" r="3" fill="#E6EDF3" />
+</svg>

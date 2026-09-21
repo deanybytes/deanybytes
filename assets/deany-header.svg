@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 230" width="100%" height="100%">
+  <defs>
+    <!-- Deep Islamic Night Gradient -->
+    <linearGradient id="islamicBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#02140D" />
+      <stop offset="50%" stop-color="#042316" />
+      <stop offset="100%" stop-color="#02140D" />
+    </linearGradient>
+
+    <!-- Vibrant Emerald & Mint Text Gradient -->
+    <linearGradient id="deanyTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FF9D" />
+      <stop offset="50%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#00FF9D" />
+    </linearGradient>
+
+    <!-- Shifting Emerald & Sage Border Gradient -->
+    <linearGradient id="emeraldBorderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00FF9D">
+        <animate attributeName="stop-color" values="#00FF9D;#10B981;#34D399;#00FF9D" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#10B981">
+        <animate attributeName="stop-color" values="#10B981;#34D399;#00FF9D;#10B981" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#34D399">
+        <animate attributeName="stop-color" values="#34D399;#00FF9D;#10B981;#34D399" dur="6s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Emerald Laser Scanning Gradient -->
+    <linearGradient id="emeraldLaser" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00FF9D" stop-opacity="0" />
+      <stop offset="50%" stop-color="#00FF9D" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Spiritual Glow Filter -->
+    <filter id="emeraldGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Geometric Star Grid Pattern -->
+    <pattern id="islamicGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#0D3B26" />
+      <path d="M 12 10 L 14 12 L 12 14 L 10 12 Z" fill="#082A1B" opacity="0.6" />
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes pulseCircuits { 0%, 100% { stroke-opacity: 0.25; } 50% { stroke-opacity: 0.95; stroke: #00FF9D; } }
+    @keyframes laserSweep { 0% { transform: translateY(-40px); } 100% { transform: translateY(240px); } }
+    @keyframes beaconBlink { 0%, 100% { opacity: 1; } 50% { opacity: 0.2; } }
+    @keyframes glowTitle { 0%, 100% { filter: drop-shadow(0 0 8px rgba(0,255,157,0.7)); } 50% { filter: drop-shadow(0 0 18px rgba(52,211,153,0.9)); } }
+
+    .active-circuit { animation: pulseCircuits 3.5s ease-in-out infinite; stroke-width: 1.8; fill: none; }
+    .laser-line { animation: laserSweep 4s linear infinite; }
+    .beacon { animation: beaconBlink 1.4s infinite; }
+    .hero-title { animation: glowTitle 4s ease-in-out infinite; font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
+    .mono-meta { font-family: 'Fira Code', 'Courier New', monospace; }
+  </style>
+
+  <!-- Background Frame -->
+  <rect x="2" y="2" width="896" height="226" rx="14" fill="url(#islamicBgGrad)" stroke="url(#emeraldBorderGrad)" stroke-width="2" />
+  <rect x="4" y="4" width="892" height="222" rx="12" fill="url(#islamicGrid)" />
+
+  <!-- Animated Circuit & Geometric Traces (Left Side) -->
+  <g class="active-circuit">
+    <path d="M 10 40 L 90 40 L 130 80 L 180 80" stroke="#00FF9D" />
+    <circle cx="180" cy="80" r="3.5" fill="#00FF9D" filter="url(#emeraldGlow)" />
+
+    <path d="M 10 110 L 70 110 L 110 150 L 210 150" stroke="#34D399" />
+    <circle cx="210" cy="150" r="3.5" fill="#34D399" filter="url(#emeraldGlow)" />
+
+    <path d="M 10 180 L 120 180 L 150 150" stroke="#00FF9D" />
+  </g>
+
+  <!-- Animated Circuit & Geometric Traces (Right Side) -->
+  <g class="active-circuit">
+    <path d="M 890 40 L 810 40 L 770 80 L 720 80" stroke="#34D399" />
+    <circle cx="720" cy="80" r="3.5" fill="#34D399" filter="url(#emeraldGlow)" />
+
+    <path d="M 890 110 L 830 110 L 790 150 L 690 150" stroke="#00FF9D" />
+    <circle cx="690" cy="150" r="3.5" fill="#00FF9D" filter="url(#emeraldGlow)" />
+
+    <path d="M 890 180 L 780 180 L 750 150" stroke="#10B981" />
+  </g>
+
+  <!-- Top Islamic Status Bar -->
+  <g transform="translate(450, 36)" text-anchor="middle" class="mono-meta">
+    <circle cx="-230" cy="-4" r="4" fill="#00FF9D" class="beacon" filter="url(#emeraldGlow)" />
+    <text x="0" y="0" font-size="11" fill="#00FF9D" letter-spacing="3" font-weight="bold">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ  //  PURSUING ITQAN &amp; IHSAN</text>
+  </g>
+
+  <!-- Central Laser-Straight Hero Brand -->
+  <g transform="translate(450, 110)" text-anchor="middle">
+    <!-- Geometric Brackets -->
+    <path d="M -220 -38 L -240 -38 L -240 -15" stroke="#00FF9D" stroke-width="2.5" fill="none" />
+    <path d="M 220 -38 L 240 -38 L 240 -15" stroke="#00FF9D" stroke-width="2.5" fill="none" />
+    <path d="M -220 28 L -240 28 L -240 5" stroke="#34D399" stroke-width="2.5" fill="none" />
+    <path d="M 220 28 L 240 28 L 240 5" stroke="#34D399" stroke-width="2.5" fill="none" />
+
+    <!-- Laser-Straight Typography for DEANY BYTES -->
+    <text x="0" y="2" class="hero-title" font-size="52" font-weight="900" fill="url(#deanyTextGrad)" letter-spacing="10" filter="url(#emeraldGlow)">DEANY BYTES</text>
+  </g>
+
+  <!-- Sub-Heading Motto & Disciplines -->
+  <g transform="translate(450, 172)" text-anchor="middle" class="mono-meta">
+    <text x="0" y="0" font-size="12" fill="#E6EDF3" font-weight="700" letter-spacing="3">
+      <tspan fill="#00FF9D">WHERE DEANY PURPOSE</tspan>
+      <tspan fill="#34D399"> MEETS </tspan>
+      <tspan fill="#00FF9D">DIGITAL BYTES</tspan>
+    </text>
+    <text x="0" y="24" font-size="10.5" fill="#6EE7B7" letter-spacing="2">ISLAMIC SOFTWARE ENGINEERING  ·  QURANIC TECH  ·  ETHICAL OPEN SOURCE  ·  DAWAH</text>
+  </g>
+
+  <!-- Scanning Laser Bar -->
+  <rect x="4" y="0" width="892" height="30" fill="url(#emeraldLaser)" class="laser-line" pointer-events="none" />
+</svg>

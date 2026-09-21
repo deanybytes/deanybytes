@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 360" width="100%" height="100%">
+  <defs>
+    <!-- Dynamic Shifting Border Gradient (Emerald Green & Mint) -->
+    <linearGradient id="termBorderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00FF9D">
+        <animate attributeName="stop-color" values="#00FF9D;#10B981;#34D399;#00FF9D" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#10B981">
+        <animate attributeName="stop-color" values="#10B981;#34D399;#00FF9D;#10B981" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#34D399">
+        <animate attributeName="stop-color" values="#34D399;#00FF9D;#10B981;#34D399" dur="6s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Neon Deany Gradient -->
+    <linearGradient id="neonDeanyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00FF9D" />
+      <stop offset="50%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#00FF9D" />
+    </linearGradient>
+
+    <!-- Scanline Laser Gradient -->
+    <linearGradient id="laserGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00FF9D" stop-opacity="0" />
+      <stop offset="50%" stop-color="#00FF9D" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="termGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Subtle Islamic Star Pattern -->
+    <pattern id="termGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#0C3322" />
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    @keyframes scan { 0% { transform: translateY(-40px); } 100% { transform: translateY(370px); } }
+    @keyframes pulseGlow { 0%, 100% { filter: drop-shadow(0 0 5px #00FF9D); } 50% { filter: drop-shadow(0 0 12px #34D399); } }
+
+    .terminal-bg { fill: #02140D; }
+    .terminal-header { fill: #042015; }
+    .term-title { font-family: 'Fira Code', monospace, 'Courier New'; font-size: 12px; fill: #6EE7B7; }
+    .mono { font-family: 'Fira Code', monospace, 'Courier New'; }
+    .cursor { animation: blink 0.85s infinite; fill: #00FF9D; }
+    .scanner { animation: scan 3.5s linear infinite; }
+    .brand-glow { animation: pulseGlow 4s ease-in-out infinite; }
+    .hud-line { font-size: 13px; }
+  </style>
+
+  <!-- Outer Glow Frame -->
+  <rect x="2" y="2" width="846" height="356" rx="12" fill="none" stroke="url(#termBorderGrad)" stroke-width="2" />
+  
+  <!-- Terminal Body Background -->
+  <rect x="4" y="4" width="842" height="352" rx="10" class="terminal-bg" />
+  <rect x="4" y="4" width="842" height="352" rx="10" fill="url(#termGrid)" />
+
+  <!-- Terminal Header Bar -->
+  <path d="M4 14 Q4 4 14 4 L836 4 Q846 4 846 14 L846 36 L4 36 Z" class="terminal-header" />
+  <line x1="4" y1="36" x2="846" y2="36" stroke="#0D3B26" stroke-width="1" />
+
+  <!-- Window Dots -->
+  <circle cx="22" cy="20" r="5.5" fill="#EF4444" />
+  <circle cx="39" cy="20" r="5.5" fill="#F59E0B" />
+  <circle cx="56" cy="20" r="5.5" fill="#00FF9D" />
+
+  <!-- Terminal Window Title -->
+  <text x="425" y="24" text-anchor="middle" class="term-title">deany@ummah-core: ~/digital-dawah (zsh)</text>
+
+  <!-- Live Status Beacon -->
+  <g transform="translate(710, 14)">
+    <circle cx="6" cy="6" r="3.5" fill="#00FF9D" class="brand-glow" />
+    <text x="16" y="9" font-family="'Fira Code', monospace" font-size="10" fill="#00FF9D" font-weight="bold">ONLINE</text>
+  </g>
+
+  <!-- Terminal Body Content -->
+  <!-- Command Prompt line -->
+  <g transform="translate(26, 68)" class="mono hud-line">
+    <text x="0" y="0" fill="#00FF9D" font-weight="bold">┌──(deany㉿ummah-core)</text><text x="180" y="0" fill="#6EE7B7">-[</text><text x="190" y="0" fill="#34D399">~/dawah-engine</text><text x="315" y="0" fill="#6EE7B7">]</text>
+    <text x="0" y="24" fill="#00FF9D" font-weight="bold">└─$</text>
+    <text x="30" y="24" fill="#E6EDF3">python3 -m dawah_engine --purpose ihsan --mission "QuranicWords"</text>
+  </g>
+
+  <!-- Content Grid: Left Badge + Right Specs -->
+  <g transform="translate(26, 120)" class="mono">
+    
+    <!-- Laser-Straight Vector DEANY BYTES Monogram Badge -->
+    <g transform="translate(0, 0)" class="brand-glow">
+      <!-- Islamic / Cyber Corner Brackets -->
+      <path d="M 0 20 L 0 4 L 20 4" stroke="#00FF9D" stroke-width="2.5" fill="none" />
+      <path d="M 230 20 L 230 4 L 210 4" stroke="#00FF9D" stroke-width="2.5" fill="none" />
+      <path d="M 0 115 L 0 131 L 20 131" stroke="#34D399" stroke-width="2.5" fill="none" />
+      <path d="M 230 115 L 230 131 L 210 131" stroke="#34D399" stroke-width="2.5" fill="none" />
+      
+      <!-- Inner HUD Panel -->
+      <rect x="8" y="12" width="214" height="111" rx="8" fill="#031A11" stroke="#0D3B26" stroke-width="1.5" />
+      
+      <!-- Scanline inside badge -->
+      <line x1="16" y1="24" x2="214" y2="24" stroke="#00FF9D" stroke-width="0.75" stroke-opacity="0.4" stroke-dasharray="4,2" />
+      
+      <!-- Unbreakable Glowing Typography -->
+      <text x="115" y="60" text-anchor="middle" dominant-baseline="middle" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="900" fill="url(#neonDeanyGrad)" letter-spacing="4" filter="url(#termGlow)">DEANY</text>
+      <text x="115" y="86" text-anchor="middle" dominant-baseline="middle" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="800" fill="#E6EDF3" letter-spacing="3">BYTES</text>
+      
+      <!-- Sub-label -->
+      <text x="115" y="108" text-anchor="middle" dominant-baseline="middle" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#00FF9D" letter-spacing="3" font-weight="bold">◈ DIGITAL DAWAH ◈</text>
+    </g>
+
+    <!-- Vertical Divider -->
+    <line x1="260" y1="4" x2="260" y2="150" stroke="#0D3B26" stroke-width="1.5" stroke-dasharray="3,3" />
+
+    <!-- System Specs Table (Islamic Tech & Dawah Focus) -->
+    <g transform="translate(285, 14)" font-size="12.5">
+      <text x="0" y="0" fill="#6EE7B7">MOTTO:</text>
+      <text x="135" y="0" fill="#00FF9D" font-weight="bold">"Where DEANY purpose meets digital BYTES"</text>
+
+      <text x="0" y="24" fill="#6EE7B7">IDENTITY:</text>
+      <text x="135" y="24" fill="#34D399" font-weight="bold">Deany Bytes <tspan fill="#6EE7B7">(@deanybytes)</tspan></text>
+
+      <text x="0" y="48" fill="#6EE7B7">PRIMARY GOAL:</text>
+      <text x="135" y="48" fill="#E6EDF3">Islamic Tech &amp; Quranic Software for the Ummah</text>
+
+      <text x="0" y="72" fill="#6EE7B7">FLAGSHIP APP:</text>
+      <text x="135" y="72" fill="#00FF9D" font-weight="bold">QuranicWords <tspan fill="#6EE7B7">• 4,700+ Vocab &amp; SRS Engine</tspan></text>
+
+      <text x="0" y="96" fill="#6EE7B7">TECH STACK:</text>
+      <text x="135" y="96" fill="#34D399">Android (Kotlin, Compose) • Python • Room SQLite</text>
+
+      <text x="0" y="120" fill="#6EE7B7">ETHICAL CODE:</text>
+      <text x="135" y="120" fill="#00FF9D">100% Privacy-First • No Ads • Zero Tracking</text>
+
+      <text x="0" y="144" fill="#6EE7B7">DAWAH STATUS:</text>
+      <text x="135" y="144" fill="#00FF9D">ENGAGED // SEEKING SADAQAH JARIYAH</text>
+      <rect x="475" y="134" width="8" height="13" class="cursor" />
+    </g>
+  </g>
+
+  <!-- Bottom Terminal Decorative Status Line -->
+  <g transform="translate(26, 334)" class="mono" font-size="11">
+    <text x="0" y="0" fill="#00FF9D">🌿 PURPOSE: DEANY</text>
+    <text x="210" y="0" fill="#34D399">📖 QURANIC TECH: ACTIVE</text>
+    <text x="430" y="0" fill="#00FF9D">⚡ BYTES: ETHICAL &amp; CLEAN</text>
+    <text x="660" y="0" fill="#34D399">● UMMAH SERVED</text>
+  </g>
+
+  <!-- Scanning Laser Overlay -->
+  <rect x="4" y="0" width="842" height="35" fill="url(#laserGrad)" class="scanner" pointer-events="none" />
+</svg>
