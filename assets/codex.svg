@@ -129,7 +129,7 @@
       <text x="145" y="0" fill="#00FF9D" font-weight="bold">Quran &amp; Sunnah <tspan fill="#34D399">• Algorithmic Itqan (Excellence)</tspan></text>
 
       <text x="0" y="25" fill="#6EE7B7">FLAGSHIP ENGINE:</text>
-      <text x="145" y="25" fill="#34D399" font-weight="bold">QuranicWords <tspan fill="#E6EDF3">(4,700+ Vocab Roots · Leitner SRS)</tspan></text>
+      <text x="145" y="25" fill="#34D399" font-weight="bold">QuranicWords <tspan fill="#ECFDF5">(4,700+ Vocab Roots · Leitner SRS)</tspan></text>
 
       <text x="0" y="50" fill="#6EE7B7">MOBILE ARCH:</text>
       <text x="145" y="50" fill="#00FF9D">Kotlin 2.0 • Jetpack Compose • Clean Architecture</text>
