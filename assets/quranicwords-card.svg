@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 260" width="100%" height="100%">
   <defs>
-    <!-- Card Border Shifting Gradient (Emerald & Celestial Gold) -->
+    <!-- Card Border Shifting All-Green Gradient -->
     <linearGradient id="qwBorder" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#00FF9D">
-        <animate attributeName="stop-color" values="#00FF9D;#10B981;#F59E0B;#00FF9D" dur="7s" repeatCount="indefinite" />
+        <animate attributeName="stop-color" values="#00FF9D;#10B981;#34D399;#00FF9D" dur="6s" repeatCount="indefinite" />
       </stop>
       <stop offset="50%" stop-color="#10B981">
-        <animate attributeName="stop-color" values="#10B981;#F59E0B;#00FF9D;#10B981" dur="7s" repeatCount="indefinite" />
+        <animate attributeName="stop-color" values="#10B981;#34D399;#00FF9D;#10B981" dur="6s" repeatCount="indefinite" />
       </stop>
-      <stop offset="100%" stop-color="#F59E0B">
-        <animate attributeName="stop-color" values="#F59E0B;#00FF9D;#10B981;#F59E0B" dur="7s" repeatCount="indefinite" />
+      <stop offset="100%" stop-color="#34D399">
+        <animate attributeName="stop-color" values="#34D399;#00FF9D;#10B981;#34D399" dur="6s" repeatCount="indefinite" />
       </stop>
     </linearGradient>
 
@@ -24,7 +24,7 @@
     <linearGradient id="qwTitleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00FF9D" />
       <stop offset="50%" stop-color="#34D399" />
-      <stop offset="100%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#00FF9D" />
     </linearGradient>
 
     <!-- Glow Filter -->
@@ -44,7 +44,7 @@
   </defs>
 
   <style>
-    @keyframes pulseCard { 0%, 100% { filter: drop-shadow(0 0 6px rgba(0,255,157,0.35)); } 50% { filter: drop-shadow(0 0 16px rgba(245,158,11,0.55)); } }
+    @keyframes pulseCard { 0%, 100% { filter: drop-shadow(0 0 6px rgba(0,255,157,0.4)); } 50% { filter: drop-shadow(0 0 16px rgba(52,211,153,0.7)); } }
     @keyframes starBlink { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
 
     .card-frame { animation: pulseCard 5s ease-in-out infinite; }
@@ -63,8 +63,8 @@
   <!-- Header Text -->
   <text x="24" y="23" class="mono" font-size="11.5" fill="#00FF9D" font-weight="bold">📖 FEATURED FLAGSHIP INITIATIVE // PRODUCTION QURANIC TECH</text>
   <g transform="translate(820, 23)">
-    <circle cx="-95" cy="-4" r="3.5" fill="#F59E0B" class="live-beacon" filter="url(#qwGlow)" />
-    <text x="0" y="0" text-anchor="end" class="mono" font-size="11" fill="#F59E0B" font-weight="bold">ACTIVE REPO</text>
+    <circle cx="-95" cy="-4" r="3.5" fill="#00FF9D" class="live-beacon" filter="url(#qwGlow)" />
+    <text x="0" y="0" text-anchor="end" class="mono" font-size="11" fill="#00FF9D" font-weight="bold">ACTIVE REPO</text>
   </g>
 
   <!-- Main Content Grid -->
@@ -75,7 +75,7 @@
     
     <!-- Quran / Book Geometric Graphic Icon -->
     <g transform="translate(110, 52)">
-      <circle cx="0" cy="0" r="32" fill="#06281B" stroke="#F59E0B" stroke-width="1.5" filter="url(#qwGlow)" />
+      <circle cx="0" cy="0" r="32" fill="#06281B" stroke="#00FF9D" stroke-width="1.5" filter="url(#qwGlow)" />
       <!-- Book spine & open pages -->
       <path d="M -18 -8 Q -9 -14 0 -10 Q 9 -14 18 -8 L 18 12 Q 9 6 0 10 Q -9 6 -18 12 Z" fill="#00FF9D" opacity="0.9" />
       <line x1="0" y1="-10" x2="0" y2="10" stroke="#02140D" stroke-width="1.5" />
@@ -89,11 +89,11 @@
     <rect x="25" y="152" width="78" height="22" rx="4" fill="#062E1E" stroke="#00FF9D" stroke-width="0.8" />
     <text x="64" y="167" text-anchor="middle" class="mono" font-size="10" fill="#00FF9D" font-weight="bold">v1.0-PROD</text>
 
-    <rect x="115" y="152" width="80" height="22" rx="4" fill="#062E1E" stroke="#F59E0B" stroke-width="0.8" />
-    <text x="155" y="167" text-anchor="middle" class="mono" font-size="10" fill="#F59E0B" font-weight="bold">GPL-3.0</text>
+    <rect x="115" y="152" width="80" height="22" rx="4" fill="#062E1E" stroke="#34D399" stroke-width="0.8" />
+    <text x="155" y="167" text-anchor="middle" class="mono" font-size="10" fill="#34D399" font-weight="bold">GPL-3.0</text>
   </g>
 
-  <!-- Right Side: Spec Cards (4 Pillars) -->
+  <!-- Right Side: Spec Cards (4 Pillars - All Green) -->
   <g transform="translate(265, 52)">
     
     <!-- Card 1: 4,700+ Words Frequency -->
@@ -108,7 +108,7 @@
     <!-- Card 2: Cognitive SRS Engine -->
     <g transform="translate(285, 0)">
       <rect x="0" y="0" width="270" height="88" rx="8" fill="#031810" stroke="#0D3B26" stroke-width="1.2" />
-      <text x="14" y="24" class="mono" font-size="12" fill="#F59E0B" font-weight="bold">🧠 LEITNER 5-BOX SRS ENGINE</text>
+      <text x="14" y="24" class="mono" font-size="12" fill="#34D399" font-weight="bold">🧠 LEITNER 5-BOX SRS ENGINE</text>
       <text x="14" y="44" font-family="system-ui, sans-serif" font-size="11" fill="#E6EDF3">Scientifically proven Spaced Repetition.</text>
       <text x="14" y="62" font-family="system-ui, sans-serif" font-size="10.5" fill="#6EE7B7">Active recall intervals for permanent memory.</text>
       <line x1="14" y1="74" x2="256" y2="74" stroke="#06281B" stroke-width="1" />

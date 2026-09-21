@@ -1,40 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 250" width="100%" height="100%">
   <defs>
-    <!-- Border Gradient (Emerald Green & Celestial Gold) -->
+    <!-- Border Gradient (All Green) -->
     <linearGradient id="skBorder" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#00FF9D">
-        <animate attributeName="stop-color" values="#00FF9D;#10B981;#F59E0B;#00FF9D" dur="7s" repeatCount="indefinite" />
+        <animate attributeName="stop-color" values="#00FF9D;#10B981;#34D399;#00FF9D" dur="6s" repeatCount="indefinite" />
       </stop>
       <stop offset="50%" stop-color="#10B981">
-        <animate attributeName="stop-color" values="#10B981;#F59E0B;#00FF9D;#10B981" dur="7s" repeatCount="indefinite" />
+        <animate attributeName="stop-color" values="#10B981;#34D399;#00FF9D;#10B981" dur="6s" repeatCount="indefinite" />
       </stop>
-      <stop offset="100%" stop-color="#F59E0B">
-        <animate attributeName="stop-color" values="#F59E0B;#00FF9D;#10B981;#F59E0B" dur="7s" repeatCount="indefinite" />
+      <stop offset="100%" stop-color="#34D399">
+        <animate attributeName="stop-color" values="#34D399;#00FF9D;#10B981;#34D399" dur="6s" repeatCount="indefinite" />
       </stop>
     </linearGradient>
 
-    <!-- Progress Meter Gradients -->
+    <!-- Progress Meter Gradients (All Green) -->
     <linearGradient id="barGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00FF9D" />
       <stop offset="100%" stop-color="#34D399" />
     </linearGradient>
     <linearGradient id="barGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#34D399" />
-      <stop offset="100%" stop-color="#F59E0B" />
-    </linearGradient>
-    <linearGradient id="barGrad3" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#F59E0B" />
       <stop offset="100%" stop-color="#00FF9D" />
     </linearGradient>
   </defs>
 
   <style>
-    @keyframes barPulse { 0%, 100% { filter: drop-shadow(0 0 4px #00FF9D); } 50% { filter: drop-shadow(0 0 10px #F59E0B); } }
+    @keyframes barPulse { 0%, 100% { filter: drop-shadow(0 0 4px #00FF9D); } 50% { filter: drop-shadow(0 0 10px #34D399); } }
     .hud-box { fill: #02140D; }
     .mono-hdr { font-family: 'Fira Code', 'Courier New', monospace; font-size: 12px; fill: #6EE7B7; }
     .mono-lbl { font-family: 'Fira Code', 'Courier New', monospace; font-size: 12px; fill: #E6EDF3; font-weight: 600; }
     .mono-pct { font-family: 'Fira Code', 'Courier New', monospace; font-size: 11.5px; fill: #00FF9D; font-weight: bold; }
-    .pulse-meter { animation: barPulse 4s ease-in-out infinite; }
+    .pulse-meter { animation: barPulse 3.5s ease-in-out infinite; }
   </style>
 
   <!-- Frame -->
@@ -45,7 +41,7 @@
   <line x1="2" y1="36" x2="898" y2="36" stroke="#0D3B26" stroke-width="1" />
   
   <text x="24" y="23" class="mono-hdr" fill="#00FF9D" font-weight="bold">◈ ISLAMIC SOFTWARE ENGINEERING &amp; PURPOSE-DRIVEN TECH MATRIX</text>
-  <text x="876" y="23" text-anchor="end" class="mono-hdr" fill="#F59E0B">STANDARD: [ALGORITHMIC ITQAN // EXCELLENCE]</text>
+  <text x="876" y="23" text-anchor="end" class="mono-hdr" fill="#34D399">STANDARD: [ALGORITHMIC ITQAN // EXCELLENCE]</text>
 
   <!-- Skills Rows -->
   <g transform="translate(24, 62)">
@@ -64,9 +60,9 @@
 
     <!-- Skill 3: Cognitive SRS -->
     <text x="0" y="84" class="mono-lbl">🧠 COGNITIVE SRS &amp; RETENTION ALGORITHMS <tspan fill="#6EE7B7" font-weight="normal">(Leitner 5-Box Spaced Repetition · Active Recall Scheduling)</tspan></text>
-    <text x="850" y="84" text-anchor="end" class="mono-pct" fill="#F59E0B">95% [OPTIMIZED]</text>
+    <text x="850" y="84" text-anchor="end" class="mono-pct" fill="#00FF9D">95% [OPTIMIZED]</text>
     <rect x="0" y="92" width="850" height="9" rx="3" fill="#06281B" />
-    <rect x="0" y="92" width="807" height="9" rx="3" fill="url(#barGrad3)" class="pulse-meter" />
+    <rect x="0" y="92" width="807" height="9" rx="3" fill="url(#barGrad1)" class="pulse-meter" />
 
     <!-- Skill 4: Ethical Privacy -->
     <text x="0" y="126" class="mono-lbl">🛡️ ETHICAL SOFTWARE &amp; LOCAL PRIVACY <tspan fill="#6EE7B7" font-weight="normal">(Zero Analytics · 100% Ad-Free · Sandboxed Local DB · Air-Gapped)</tspan></text>
@@ -76,7 +72,7 @@
 
     <!-- Skill 5: Open Source Dawah -->
     <text x="0" y="168" class="mono-lbl">🌐 SACRED OPEN SOURCE &amp; DAWAH TOOLING <tspan fill="#6EE7B7" font-weight="normal">(Sadaqah Jariyah in Code · Git · Continuous Integration · Ummah Scale)</tspan></text>
-    <text x="850" y="168" text-anchor="end" class="mono-pct" fill="#F59E0B">94% [COMMITTED]</text>
+    <text x="850" y="168" text-anchor="end" class="mono-pct" fill="#34D399">94% [COMMITTED]</text>
     <rect x="0" y="176" width="850" height="9" rx="3" fill="#06281B" />
     <rect x="0" y="176" width="799" height="9" rx="3" fill="url(#barGrad2)" class="pulse-meter" />
 

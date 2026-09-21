@@ -11,14 +11,14 @@
 
 <div align="center">
 
-  <!-- Animated Top Islamic Wave Banner (Emerald & Celestial Gold Theme) -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:02140d,40:042316,80:10b981,100:f59e0b&height=180&section=header&text=DEANY%20BYTES&fontSize=48&fontColor=00FF9D&animation=twinkling&fontAlignY=38&desc=%E2%96%B8%20WHERE%20DEANY%20PURPOSE%20MEETS%20DIGITAL%20BYTES%20%E2%80%A2%20ISLAMIC%20TECH%20%E2%80%A2%20DAWAH&descAlignY=62&descAlign=50" width="100%" alt="Top Islamic Wave Banner - Deany Bytes Where DEANY purpose meets digital BYTES" />
+  <!-- Animated Top Islamic Wave Banner (Pure Emerald & Mint Green Theme) -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:02140d,40:042316,75:0a3b25,100:00ff9d&height=180&section=header&text=DEANY%20BYTES&fontSize=48&fontColor=00FF9D&animation=twinkling&fontAlignY=38&desc=%E2%96%B8%20WHERE%20DEANY%20PURPOSE%20MEETS%20DIGITAL%20BYTES%20%E2%80%A2%20ISLAMIC%20TECH%20%E2%80%A2%20DAWAH&descAlignY=62&descAlign=50" width="100%" alt="Top Islamic Wave Banner - Deany Bytes Where DEANY purpose meets digital BYTES" />
 
   <br/><br/>
 
-  <!-- Official Deany Bytes Emblem with Spiritual Celestial Aura -->
+  <!-- Official Deany Bytes Emblem with Spiritual Celestial Green Aura -->
   <a href="https://github.com/deanybytes">
-    <img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/DEANYBYTES.png?v=12" width="160" height="160" alt="Deany Bytes Official Emblem (@deanybytes)" style="border-radius: 50%; filter: drop-shadow(0 0 24px rgba(0, 255, 157, 0.75));" />
+    <img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/DEANYBYTES.png?v=14" width="160" height="160" alt="Deany Bytes Official Emblem (@deanybytes)" style="border-radius: 50%; filter: drop-shadow(0 0 24px rgba(0, 255, 157, 0.75));" />
   </a>
 
   <br/><br/>
@@ -28,7 +28,7 @@
   <p align="center"><b>@deanybytes</b> • <i>"Where DEANY purpose meets digital BYTES" 🌿 • Islamic Software Engineering • Quranic Tech • Sacred Open Source</i></p>
 
   <!-- Bespoke Animated Vector Hero Banner -->
-  <img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/deany-header.svg?v=12" width="100%" alt="Deany Bytes - Where DEANY purpose meets digital BYTES Hero Banner" />
+  <img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/deany-header.svg?v=14" width="100%" alt="Deany Bytes - Where DEANY purpose meets digital BYTES Hero Banner" />
 
   <br/><br/>
 
@@ -39,13 +39,13 @@
 
   <br/>
 
-  <!-- High-Contrast Spiritual Stealth Badges with Emerald & Gold Accents -->
+  <!-- High-Contrast Spiritual Stealth Badges with All-Green Theme -->
   <p align="center">
     <a href="https://github.com/deanybytes"><img src="https://img.shields.io/badge/PURPOSE-DEANY%20BYTES-02140D?style=for-the-badge&logo=codeforces&logoColor=00FF9D&labelColor=062E1E" alt="Purpose: Deany Bytes"/></a>
-    <a href="https://github.com/deanybytes"><img src="https://img.shields.io/badge/MISSION-DIGITAL%20DAWAH-02140D?style=for-the-badge&logo=bookstack&logoColor=F59E0B&labelColor=062E1E" alt="Mission: Digital Dawah"/></a>
+    <a href="https://github.com/deanybytes"><img src="https://img.shields.io/badge/MISSION-DIGITAL%20DAWAH-02140D?style=for-the-badge&logo=bookstack&logoColor=34D399&labelColor=062E1E" alt="Mission: Digital Dawah"/></a>
     <a href="https://github.com/deanybytes"><img src="https://img.shields.io/badge/FOUNDATION-QURAN%20%26%20SUNNAH-02140D?style=for-the-badge&logo=readme&logoColor=00FF9D&labelColor=062E1E" alt="Foundation: Quran &amp; Sunnah"/></a>
-    <a href="https://github.com/deanybytes"><img src="https://img.shields.io/badge/CODE-SADAQAH%20JARIYAH-02140D?style=for-the-badge&logo=opensourceinitiative&logoColor=F59E0B&labelColor=062E1E" alt="Code: Sadaqah Jariyah"/></a>
-    <a href="https://github.com/deanybytes"><img src="https://img.shields.io/badge/ETHICS-100%25%20AD--FREE-02140D?style=for-the-badge&logo=adguard&logoColor=34D399&labelColor=062E1E" alt="Ethics: 100% Ad-Free"/></a>
+    <a href="https://github.com/deanybytes"><img src="https://img.shields.io/badge/CODE-SADAQAH%20JARIYAH-02140D?style=for-the-badge&logo=opensourceinitiative&logoColor=34D399&labelColor=062E1E" alt="Code: Sadaqah Jariyah"/></a>
+    <a href="https://github.com/deanybytes"><img src="https://img.shields.io/badge/ETHICS-100%25%20AD--FREE-02140D?style=for-the-badge&logo=adguard&logoColor=00FF9D&labelColor=062E1E" alt="Ethics: 100% Ad-Free"/></a>
     <a href="https://github.com/deanybytes"><img src="https://komarev.com/ghpvc/?username=deanybytes&color=02140d&style=for-the-badge&label=UMMAH%20VISITORS" alt="Ummah Visitors Counter" /></a>
   </p>
 
@@ -55,20 +55,20 @@
 
 <!-- Sacred Digital Codex // Islamic Tech Architecture Dashboard -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/codex.svg?v=12" width="100%" alt="Deany Bytes Sacred Digital Codex - Islamic Tech &amp; Digital Dawah Architecture" />
+  <img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/codex.svg?v=14" width="100%" alt="Deany Bytes Sacred Digital Codex - Islamic Tech &amp; Digital Dawah Architecture" />
 </div>
 
 <br/>
 
 <!-- Animated Islamic Arabesque Divider -->
-<img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/divider.svg?v=12" width="100%" alt="Section Divider" />
+<img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/divider.svg?v=14" width="100%" alt="Section Divider" />
 
 ### 📖 `[FEATURED FLAGSHIP INITIATIVE // QURANICWORDS ENGINE]`
 
 <div align="center">
 
   <a href="https://github.com/deanybytes/QuranicWords">
-    <img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/quranicwords-card.svg?v=12" width="100%" alt="QuranicWords Flagship Android App by Deany Bytes" />
+    <img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/quranicwords-card.svg?v=14" width="100%" alt="QuranicWords Flagship Android App by Deany Bytes" />
   </a>
 
   <br/><br/>
@@ -77,9 +77,9 @@
   <p align="center">
     <a href="https://github.com/deanybytes/QuranicWords"><img src="https://img.shields.io/badge/PLATFORM-ANDROID%20OFFLINE-02140D?style=for-the-badge&logo=android&logoColor=00FF9D&labelColor=062E1E" alt="Platform: Android Offline"/></a>
     <a href="https://github.com/deanybytes/QuranicWords"><img src="https://img.shields.io/badge/ARCHITECTURE-KOTLIN%20COMPOSE-02140D?style=for-the-badge&logo=kotlin&logoColor=34D399&labelColor=062E1E" alt="Architecture: Kotlin &amp; Compose"/></a>
-    <a href="https://github.com/deanybytes/QuranicWords"><img src="https://img.shields.io/badge/MEMORY%20MODEL-LEITNER%20SRS-02140D?style=for-the-badge&logo=brainz&logoColor=F59E0B&labelColor=062E1E" alt="Memory Model: Leitner SRS"/></a>
-    <a href="https://github.com/deanybytes/QuranicWords"><img src="https://img.shields.io/badge/DATABASE-ROOM%20SQLITE-02140D?style=for-the-badge&logo=sqlite&logoColor=00FF9D&labelColor=062E1E" alt="Database: Room SQLite"/></a>
-    <a href="https://github.com/deanybytes/QuranicWords"><img src="https://img.shields.io/badge/LICENSE-GPL--3.0-02140D?style=for-the-badge&logo=opensourceinitiative&logoColor=34D399&labelColor=062E1E" alt="License: GPL-3.0"/></a>
+    <a href="https://github.com/deanybytes/QuranicWords"><img src="https://img.shields.io/badge/MEMORY%20MODEL-LEITNER%20SRS-02140D?style=for-the-badge&logo=brainz&logoColor=00FF9D&labelColor=062E1E" alt="Memory Model: Leitner SRS"/></a>
+    <a href="https://github.com/deanybytes/QuranicWords"><img src="https://img.shields.io/badge/DATABASE-ROOM%20SQLITE-02140D?style=for-the-badge&logo=sqlite&logoColor=34D399&labelColor=062E1E" alt="Database: Room SQLite"/></a>
+    <a href="https://github.com/deanybytes/QuranicWords"><img src="https://img.shields.io/badge/LICENSE-GPL--3.0-02140D?style=for-the-badge&logo=opensourceinitiative&logoColor=00FF9D&labelColor=062E1E" alt="License: GPL-3.0"/></a>
   </p>
 
 </div>
@@ -116,14 +116,14 @@ cd QuranicWords
 <br/>
 
 <!-- Animated Islamic Arabesque Divider -->
-<img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/divider.svg?v=12" width="100%" alt="Section Divider" />
+<img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/divider.svg?v=14" width="100%" alt="Section Divider" />
 
 ### 🌿 `[PURPOSE-DRIVEN ARSENAL & TECH MATRIX]`
 
 <div align="center">
 
   <!-- Animated Vector Skills Matrix -->
-  <img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/skills.svg?v=12" width="100%" alt="Deany Bytes Islamic Software Engineering &amp; Tech Matrix" />
+  <img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/skills.svg?v=14" width="100%" alt="Deany Bytes Islamic Software Engineering &amp; Tech Matrix" />
 
   <br/><br/>
 
@@ -137,7 +137,7 @@ cd QuranicWords
 <br/>
 
 <!-- Animated Islamic Arabesque Divider -->
-<img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/divider.svg?v=12" width="100%" alt="Section Divider" />
+<img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/divider.svg?v=14" width="100%" alt="Section Divider" />
 
 ### 🎯 `[ISLAMIC TECH METHODOLOGY & ETHICAL FOUNDATIONS]`
 
@@ -181,15 +181,15 @@ Niyyah (Intention)  ·  Itqan (Mastery)  ·  Ihsan (Excellence)
 <br/>
 
 <!-- Animated Islamic Arabesque Divider -->
-<img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/divider.svg?v=12" width="100%" alt="Section Divider" />
+<img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/divider.svg?v=14" width="100%" alt="Section Divider" />
 
 ### 📊 `[DEVOTION & GITHUB TELEMETRY]`
 
 <div align="center">
 
-  <!-- GitHub Streak Stats with Pure Islamic Emerald Green & Celestial Gold Accents -->
+  <!-- GitHub Streak Stats with Pure Islamic Emerald Green Accents -->
   <a href="https://github.com/deanybytes">
-    <img src="https://streak-stats.demolab.com/?user=deanybytes&theme=dark&background=02140D&border=00FF9D&stroke=00FF9D&ring=F59E0B&fire=00FF9D&currStreakNum=00FF9D&sideNums=F59E0B&currStreakLabel=00FF9D&sideLabels=6EE7B7&dates=6EE7B7" alt="Deany Bytes GitHub Commit Streak Statistics" />
+    <img src="https://streak-stats.demolab.com/?user=deanybytes&theme=dark&background=02140D&border=00FF9D&stroke=00FF9D&ring=00FF9D&fire=00FF9D&currStreakNum=00FF9D&sideNums=34D399&currStreakLabel=00FF9D&sideLabels=6EE7B7&dates=6EE7B7" alt="Deany Bytes GitHub Commit Streak Statistics" />
   </a>
 
 </div>
@@ -197,7 +197,7 @@ Niyyah (Intention)  ·  Itqan (Mastery)  ·  Ihsan (Excellence)
 <br/>
 
 <!-- Animated Islamic Arabesque Divider -->
-<img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/divider.svg?v=12" width="100%" alt="Section Divider" />
+<img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/divider.svg?v=14" width="100%" alt="Section Divider" />
 
 ### 🐍 `[CONTRIBUTION MATRIX PROTOCOL]`
 
@@ -214,7 +214,7 @@ Niyyah (Intention)  ·  Itqan (Mastery)  ·  Ihsan (Excellence)
 <br/>
 
 <!-- Animated Islamic Arabesque Divider -->
-<img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/divider.svg?v=12" width="100%" alt="Section Divider" />
+<img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/divider.svg?v=14" width="100%" alt="Section Divider" />
 
 ### 📡 `[CONNECT TO DEANY BYTES // GLOBAL UMMAH CHANNELS]`
 
