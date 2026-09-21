@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 260" width="100%" height="100%">
+  <defs>
+    <!-- Card Border Shifting Gradient -->
+    <linearGradient id="qwBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00FF9D">
+        <animate attributeName="stop-color" values="#00FF9D;#10B981;#34D399;#00FF9D" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#10B981">
+        <animate attributeName="stop-color" values="#10B981;#34D399;#00FF9D;#10B981" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#34D399">
+        <animate attributeName="stop-color" values="#34D399;#00FF9D;#10B981;#34D399" dur="6s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Card Background Gradient -->
+    <linearGradient id="qwBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#02140D" />
+      <stop offset="50%" stop-color="#042015" />
+      <stop offset="100%" stop-color="#02140D" />
+    </linearGradient>
+
+    <!-- Glowing Title Gradient -->
+    <linearGradient id="qwTitleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FF9D" />
+      <stop offset="50%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#00FF9D" />
+    </linearGradient>
+
+    <!-- Scanline Laser Gradient -->
+    <linearGradient id="qwLaser" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00FF9D" stop-opacity="0" />
+      <stop offset="50%" stop-color="#00FF9D" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="qwGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Dot Grid Pattern -->
+    <pattern id="qwGrid" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#0C3322" />
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes pulseCard { 0%, 100% { filter: drop-shadow(0 0 6px rgba(0,255,157,0.4)); } 50% { filter: drop-shadow(0 0 14px rgba(52,211,153,0.7)); } }
+    @keyframes sweepLaser { 0% { transform: translateY(-40px); } 100% { transform: translateY(270px); } }
+    @keyframes starBlink { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+
+    .card-frame { animation: pulseCard 5s ease-in-out infinite; }
+    .card-laser { animation: sweepLaser 4.5s linear infinite; }
+    .live-beacon { animation: starBlink 1.5s infinite; }
+    .mono { font-family: 'Fira Code', 'Courier New', monospace; }
+  </style>
+
+  <!-- Base Card Frame -->
+  <rect x="2" y="2" width="846" height="256" rx="12" fill="url(#qwBg)" stroke="url(#qwBorder)" stroke-width="2" class="card-frame" />
+  <rect x="4" y="4" width="842" height="252" rx="10" fill="url(#qwGrid)" />
+
+  <!-- Top Header Strip -->
+  <rect x="2" y="2" width="846" height="34" rx="12" fill="#042015" />
+  <line x1="2" y1="36" x2="848" y2="36" stroke="#0D3B26" stroke-width="1.2" />
+
+  <!-- Header Text -->
+  <text x="24" y="23" class="mono" font-size="11.5" fill="#00FF9D" font-weight="bold">📖 FEATURED FLAGSHIP INITIATIVE // PRODUCTION ANDROID APP</text>
+  <g transform="translate(820, 23)">
+    <circle cx="-95" cy="-4" r="3.5" fill="#00FF9D" class="live-beacon" filter="url(#qwGlow)" />
+    <text x="0" y="0" text-anchor="end" class="mono" font-size="11" fill="#34D399" font-weight="bold">ACTIVE REPO</text>
+  </g>
+
+  <!-- Main Content Grid -->
+  <!-- Left Side: App Icon & Brand Badge -->
+  <g transform="translate(26, 52)">
+    <!-- App Badge Box -->
+    <rect x="0" y="0" width="220" height="190" rx="10" fill="#031810" stroke="#0D3B26" stroke-width="1.5" />
+    
+    <!-- Quran / Book Geometric Graphic Icon -->
+    <g transform="translate(110, 52)">
+      <circle cx="0" cy="0" r="32" fill="#06281B" stroke="#00FF9D" stroke-width="1.5" filter="url(#qwGlow)" />
+      <!-- Book spine & open pages -->
+      <path d="M -18 -8 Q -9 -14 0 -10 Q 9 -14 18 -8 L 18 12 Q 9 6 0 10 Q -9 6 -18 12 Z" fill="#00FF9D" opacity="0.9" />
+      <line x1="0" y1="-10" x2="0" y2="10" stroke="#02140D" stroke-width="1.5" />
+    </g>
+
+    <!-- App Name & Subtitle -->
+    <text x="110" y="115" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="900" fill="url(#qwTitleGrad)" letter-spacing="1.5">QuranicWords</text>
+    <text x="110" y="135" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#6EE7B7" font-weight="600">4,700+ VOCABULARY SRS</text>
+    
+    <!-- Tag Badges -->
+    <rect x="25" y="152" width="78" height="22" rx="4" fill="#062E1E" stroke="#00FF9D" stroke-width="0.8" />
+    <text x="64" y="167" text-anchor="middle" class="mono" font-size="10" fill="#00FF9D" font-weight="bold">v1.0-PROD</text>
+
+    <rect x="115" y="152" width="80" height="22" rx="4" fill="#062E1E" stroke="#34D399" stroke-width="0.8" />
+    <text x="155" y="167" text-anchor="middle" class="mono" font-size="10" fill="#34D399" font-weight="bold">GPL-3.0</text>
+  </g>
+
+  <!-- Right Side: Spec Cards (4 Pillars) -->
+  <g transform="translate(265, 52)">
+    
+    <!-- Card 1: 4,700+ Words Frequency -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="270" height="88" rx="8" fill="#031810" stroke="#0D3B26" stroke-width="1.2" />
+      <text x="14" y="24" class="mono" font-size="12" fill="#00FF9D" font-weight="bold">📊 4,700+ QURANIC WORDS</text>
+      <text x="14" y="44" font-family="system-ui, sans-serif" font-size="11" fill="#E6EDF3">Ordered by exact occurrence frequency.</text>
+      <text x="14" y="62" font-family="system-ui, sans-serif" font-size="10.5" fill="#6EE7B7">Master 80%+ of Quranic text with ease.</text>
+      <line x1="14" y1="74" x2="256" y2="74" stroke="#06281B" stroke-width="1" />
+    </g>
+
+    <!-- Card 2: Cognitive SRS Engine -->
+    <g transform="translate(285, 0)">
+      <rect x="0" y="0" width="270" height="88" rx="8" fill="#031810" stroke="#0D3B26" stroke-width="1.2" />
+      <text x="14" y="24" class="mono" font-size="12" fill="#34D399" font-weight="bold">🧠 LEITNER BOX SRS ENGINE</text>
+      <text x="14" y="44" font-family="system-ui, sans-serif" font-size="11" fill="#E6EDF3">Scientifically proven Spaced Repetition.</text>
+      <text x="14" y="62" font-family="system-ui, sans-serif" font-size="10.5" fill="#6EE7B7">Active recall intervals for permanent memory.</text>
+      <line x1="14" y1="74" x2="256" y2="74" stroke="#06281B" stroke-width="1" />
+    </g>
+
+    <!-- Card 3: 100% Offline & Private -->
+    <g transform="translate(0, 102)">
+      <rect x="0" y="0" width="270" height="88" rx="8" fill="#031810" stroke="#0D3B26" stroke-width="1.2" />
+      <text x="14" y="24" class="mono" font-size="12" fill="#00FF9D" font-weight="bold">🛡️ 100% OFFLINE &amp; ZERO ADS</text>
+      <text x="14" y="44" font-family="system-ui, sans-serif" font-size="11" fill="#E6EDF3">No internet permission required. Zero tracking.</text>
+      <text x="14" y="62" font-family="system-ui, sans-serif" font-size="10.5" fill="#6EE7B7">Local Room SQLite DB keeps all data safe.</text>
+      <line x1="14" y1="74" x2="256" y2="74" stroke="#06281B" stroke-width="1" />
+    </g>
+
+    <!-- Card 4: Modern Android Architecture -->
+    <g transform="translate(285, 102)">
+      <rect x="0" y="0" width="270" height="88" rx="8" fill="#031810" stroke="#0D3B26" stroke-width="1.2" />
+      <text x="14" y="24" class="mono" font-size="12" fill="#34D399" font-weight="bold">⚡ JETPACK COMPOSE &amp; KOTLIN</text>
+      <text x="14" y="44" font-family="system-ui, sans-serif" font-size="11" fill="#E6EDF3">State-of-the-art Clean Architecture.</text>
+      <text x="14" y="62" font-family="system-ui, sans-serif" font-size="10.5" fill="#6EE7B7">Material 3, Coroutines, StateFlow &amp; Hilt DI.</text>
+      <line x1="14" y1="74" x2="256" y2="74" stroke="#06281B" stroke-width="1" />
+    </g>
+
+  </g>
+
+  <!-- Scanning Laser Bar -->
+  <rect x="4" y="0" width="842" height="30" fill="url(#qwLaser)" class="card-laser" pointer-events="none" />
+</svg>

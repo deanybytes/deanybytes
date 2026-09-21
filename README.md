@@ -5,13 +5,21 @@
   GitHub: https://github.com/deanybytes
   Motto: Where DEANY purpose meets digital BYTES
   Role: Islamic Software Engineer, Quranic Tech Architect & Ethical Open Source Developer
-  Search Keywords: deanybytes, deany bytes, deany bytes github, Islamic Tech, Muslim Developer, QuranicWords, Quranic Vocabulary, Quran Android App, Digital Dawah, Islamic Apps, Ethical Software, Privacy-First Apps, Muslim Tech, Android Kotlin Jetpack Compose, Room SQLite, Offline First, Sadaqah Jariyah
+  Flagship Project: QuranicWords (https://github.com/deanybytes/QuranicWords)
+  Search Keywords: deanybytes, deany bytes, deany bytes github, QuranicWords, Quranic words, Quran vocabulary app, Quran Arabic learning, spaced repetition quran, leitner srs quran, offline quran vocab, quran android app open source, islamic tech, muslim developer, digital dawah, islamic apps, ethical software, privacy first quran app, room sqlite quran, kotlin jetpack compose quran, sadaqah jariyah, open source dawah
 -->
 
 <div align="center">
 
   <!-- Animated Top Islamic Cyber Wave Banner (Emerald Theme) -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:02140d,50:063321,100:10b981&height=180&section=header&text=DEANY%20BYTES&fontSize=46&fontColor=00FF9D&animation=twinkling&fontAlignY=38&desc=%E2%96%B8%20WHERE%20DEANY%20PURPOSE%20MEETS%20DIGITAL%20BYTES%20%E2%80%A2%20ISLAMIC%20TECH%20%E2%80%A2%20DAWAH&descAlignY=62&descAlign=50" width="100%" alt="Top Islamic Cyber Wave Banner - Deany Bytes Where DEANY purpose meets digital BYTES" />
+
+  <br/><br/>
+
+  <!-- Official Deany Bytes Emblem -->
+  <a href="https://github.com/deanybytes">
+    <img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/DEANYBYTES.png" width="135" height="135" alt="Deany Bytes Official Emblem" style="border-radius: 50%; filter: drop-shadow(0 0 16px rgba(0,255,157,0.5));" />
+  </a>
 
   <br/><br/>
 
@@ -48,6 +56,61 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/terminal.svg?v=2" width="100%" alt="Deany Bytes Terminal HUD - Islamic Tech &amp; Digital Dawah Console" />
 </div>
+
+<br/>
+
+<!-- Animated Cyber Divider -->
+<img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/divider.svg?v=2" width="100%" alt="Section Divider" />
+
+### 📖 `[FEATURED REPOSITORY // QURANICWORDS ENGINE]`
+
+<div align="center">
+
+  <a href="https://github.com/deanybytes/QuranicWords">
+    <img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/quranicwords-card.svg?v=2" width="100%" alt="QuranicWords Flagship Android App by Deany Bytes" />
+  </a>
+
+  <br/><br/>
+
+  <!-- High-Impact Repository Badges -->
+  <p align="center">
+    <a href="https://github.com/deanybytes/QuranicWords"><img src="https://img.shields.io/badge/PLATFORM-ANDROID%20OFFLINE-02140D?style=for-the-badge&logo=android&logoColor=00FF9D&labelColor=062E1E" alt="Platform: Android Offline"/></a>
+    <a href="https://github.com/deanybytes/QuranicWords"><img src="https://img.shields.io/badge/ARCHITECTURE-KOTLIN%20COMPOSE-02140D?style=for-the-badge&logo=kotlin&logoColor=34D399&labelColor=062E1E" alt="Architecture: Kotlin &amp; Compose"/></a>
+    <a href="https://github.com/deanybytes/QuranicWords"><img src="https://img.shields.io/badge/MEMORY%20MODEL-LEITNER%20SRS-02140D?style=for-the-badge&logo=brainz&logoColor=00FF9D&labelColor=062E1E" alt="Memory Model: Leitner SRS"/></a>
+    <a href="https://github.com/deanybytes/QuranicWords"><img src="https://img.shields.io/badge/DATABASE-ROOM%20SQLITE-02140D?style=for-the-badge&logo=sqlite&logoColor=00FF9D&labelColor=062E1E" alt="Database: Room SQLite"/></a>
+    <a href="https://github.com/deanybytes/QuranicWords"><img src="https://img.shields.io/badge/LICENSE-GPL--3.0-02140D?style=for-the-badge&logo=opensourceinitiative&logoColor=34D399&labelColor=062E1E" alt="License: GPL-3.0"/></a>
+  </p>
+
+</div>
+
+<details open>
+<summary><b>✨ [CLICK TO COLLAPSE // EXPLORE QURANICWORDS ARCHITECTURE &amp; LEARNING PIPELINE]</b></summary>
+
+<br/>
+
+> **[QuranicWords](https://github.com/deanybytes/QuranicWords)** is a production-grade, privacy-first Android application designed to help Muslims worldwide achieve profound linguistic comprehension of the Holy Quran by mastering **4,700+ unique vocabulary roots and words** ordered by occurrence frequency.
+
+#### 🌟 Key Engineering &amp; Linguistic Highlights
+
+- 📚 **80%+ Quranic Text Comprehension**: Focusing on high-frequency roots allows learners to understand the majority of ayat encountered in daily prayers quickly and intuitively.
+- 🧠 **Leitner 5-Box Cognitive SRS Engine**: Scientifically scheduled active-recall intervals ensure vocabulary transfers from short-term memory into permanent cognitive retention.
+- 🛡️ **100% Offline &amp; Zero Tracking**: Local-only SQLite persistence via Android Room DB. Zero internet permissions required, respecting user focus and privacy during worship.
+- 🎨 **Modern Declarative UI**: Built strictly with Kotlin, Jetpack Compose, Material 3, Clean Architecture (Domain/Data/UI separation), and Hilt Dependency Injection.
+
+```bash
+# Clone & Explore QuranicWords
+git clone git@github-deanybytes:deanybytes/QuranicWords.git
+cd QuranicWords
+./gradlew assembleDebug
+```
+
+<div align="center">
+  <a href="https://github.com/deanybytes/QuranicWords">
+    <img src="https://img.shields.io/badge/EXPLORE_FULL_SOURCE_CODE-deanybytes%2FQuranicWords-02140D?style=for-the-badge&logo=github&logoColor=00FF9D&labelColor=062E1E" alt="Explore QuranicWords Repository" />
+  </a>
+</div>
+
+</details>
 
 <br/>
 
@@ -168,7 +231,7 @@ Niyyah (Intention)  ·  Itqan (Mastery)  ·  Ihsan (Excellence)
 
   <!-- SEO Indexing Keywords Footer -->
   <p align="center">
-    <sub><b>GitHub Profile:</b> <a href="https://github.com/deanybytes">@deanybytes</a> (Deany Bytes) | <b>Motto:</b> Where DEANY purpose meets digital BYTES | <b>Search Queries:</b> deanybytes · Islamic Tech · QuranicWords · Muslim Developer · Quran Android App · Digital Dawah · Ethical Software · Kotlin Compose · Room SQLite · Offline First · Sadaqah Jariyah · Itqan</sub>
+    <sub><b>GitHub Profile:</b> <a href="https://github.com/deanybytes">@deanybytes</a> (Deany Bytes) | <b>Motto:</b> Where DEANY purpose meets digital BYTES | <b>Flagship:</b> <a href="https://github.com/deanybytes/QuranicWords">QuranicWords</a> | <b>Search Queries:</b> deanybytes · Islamic Tech · QuranicWords · Quranic words · Quran vocabulary · Muslim Developer · Quran Android App · Digital Dawah · Ethical Software · Kotlin Compose · Room SQLite · Offline First · Spaced Repetition Quran · Leitner SRS · Sadaqah Jariyah · Itqan</sub>
   </p>
 
   <!-- Islamic Emerald Animated Footer Wave -->
