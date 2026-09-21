@@ -11,7 +11,7 @@
 <div align="center">
 
   <!-- Animated Top Islamic Cyber Wave Banner (Emerald Theme) -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:02140d,40:06281b,100:00ff9d&height=180&section=header&text=DEANY%20BYTES&fontSize=48&fontColor=00FF9D&animation=twinkling&fontAlignY=38&desc=%E2%96%B8%20WHERE%20DEANY%20PURPOSE%20MEETS%20DIGITAL%20BYTES%20%E2%80%A2%20ISLAMIC%20TECH%20%26%20DAWAH&descAlignY=62&descAlign=50" width="100%" alt="Top Islamic Cyber Wave Banner - Deany Bytes Where DEANY purpose meets digital BYTES" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:02140d,50:063321,100:10b981&height=180&section=header&text=DEANY%20BYTES&fontSize=46&fontColor=00FF9D&animation=twinkling&fontAlignY=38&desc=%E2%96%B8%20WHERE%20DEANY%20PURPOSE%20MEETS%20DIGITAL%20BYTES%20%E2%80%A2%20ISLAMIC%20TECH%20%E2%80%A2%20DAWAH&descAlignY=62&descAlign=50" width="100%" alt="Top Islamic Cyber Wave Banner - Deany Bytes Where DEANY purpose meets digital BYTES" />
 
   <br/><br/>
 
@@ -20,7 +20,7 @@
   <p align="center"><b>@deanybytes</b> • <i>"Where DEANY purpose meets digital BYTES" 🌿 • Islamic Software Engineering • Quranic Tech • Ethical Open Source</i></p>
 
   <!-- Bespoke Animated Vector Hero Banner -->
-  <img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/deany-header.svg" width="100%" alt="Deany Bytes - Where DEANY purpose meets digital BYTES Hero Banner" />
+  <img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/deany-header.svg?v=2" width="100%" alt="Deany Bytes - Where DEANY purpose meets digital BYTES Hero Banner" />
 
   <br/><br/>
 
@@ -46,20 +46,20 @@
 
 <!-- Animated Vector Islamic Terminal HUD -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/terminal.svg" width="100%" alt="Deany Bytes Terminal HUD - Islamic Tech &amp; Digital Dawah Console" />
+  <img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/terminal.svg?v=2" width="100%" alt="Deany Bytes Terminal HUD - Islamic Tech &amp; Digital Dawah Console" />
 </div>
 
 <br/>
 
 <!-- Animated Cyber Divider -->
-<img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/divider.svg" width="100%" alt="Section Divider" />
+<img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/divider.svg?v=2" width="100%" alt="Section Divider" />
 
 ### 🌿 `[PURPOSE-DRIVEN ARSENAL & TECH MATRIX]`
 
 <div align="center">
 
   <!-- Animated Vector Skills Matrix -->
-  <img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/skills.svg" width="100%" alt="Deany Bytes Islamic Tech &amp; Engineering Matrix" />
+  <img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/skills.svg?v=2" width="100%" alt="Deany Bytes Islamic Tech &amp; Engineering Matrix" />
 
   <br/><br/>
 
@@ -73,7 +73,7 @@
 <br/>
 
 <!-- Animated Cyber Divider -->
-<img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/divider.svg" width="100%" alt="Section Divider" />
+<img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/divider.svg?v=2" width="100%" alt="Section Divider" />
 
 ### 🎯 `[KEY MISSIONS & DIGITAL INITIATIVES]`
 
@@ -117,7 +117,7 @@ Niyyah (Intention)  ·  Itqan (Mastery)  ·  Ihsan (Excellence)
 <br/>
 
 <!-- Animated Cyber Divider -->
-<img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/divider.svg" width="100%" alt="Section Divider" />
+<img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/divider.svg?v=2" width="100%" alt="Section Divider" />
 
 ### 📊 `[DEVOTION & GITHUB TELEMETRY]`
 
@@ -133,7 +133,7 @@ Niyyah (Intention)  ·  Itqan (Mastery)  ·  Ihsan (Excellence)
 <br/>
 
 <!-- Animated Cyber Divider -->
-<img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/divider.svg" width="100%" alt="Section Divider" />
+<img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/divider.svg?v=2" width="100%" alt="Section Divider" />
 
 ### 🐍 `[CONTRIBUTION MATRIX PROTOCOL]`
 
@@ -150,7 +150,7 @@ Niyyah (Intention)  ·  Itqan (Mastery)  ·  Ihsan (Excellence)
 <br/>
 
 <!-- Animated Cyber Divider -->
-<img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/divider.svg" width="100%" alt="Section Divider" />
+<img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/divider.svg?v=2" width="100%" alt="Section Divider" />
 
 ### 📡 `[CONNECT TO THE DAWAH MAINFRAME]`
 
