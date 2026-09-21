@@ -20,7 +20,7 @@
   <p align="center"><b>@deanybytes</b> • <i>"Where DEANY purpose meets digital BYTES" 🌿 • Islamic Software Engineering • Quranic Tech • Ethical Open Source</i></p>
 
   <!-- Bespoke Animated Vector Hero Banner -->
-  <img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/deany-header.svg?v=2" width="100%" alt="Deany Bytes - Where DEANY purpose meets digital BYTES Hero Banner" />
+  <img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/deany-header.svg?v=3" width="100%" alt="Deany Bytes - Where DEANY purpose meets digital BYTES Hero Banner" />
 
   <br/><br/>
 
