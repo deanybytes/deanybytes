@@ -18,7 +18,7 @@
 
   <!-- Official Deany Bytes Emblem -->
   <a href="https://github.com/deanybytes">
-    <img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/DEANYBYTES.png" width="135" height="135" alt="Deany Bytes Official Emblem" style="border-radius: 50%; filter: drop-shadow(0 0 16px rgba(0,255,157,0.5));" />
+    <img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/DEANYBYTES.png" width="150" height="150" alt="Deany Bytes Official Emblem" style="border-radius: 50%; filter: drop-shadow(0 0 20px rgba(0,255,157,0.6));" />
   </a>
 
   <br/><br/>
@@ -28,7 +28,7 @@
   <p align="center"><b>@deanybytes</b> • <i>"Where DEANY purpose meets digital BYTES" 🌿 • Islamic Software Engineering • Quranic Tech • Ethical Open Source</i></p>
 
   <!-- Bespoke Animated Vector Hero Banner -->
-  <img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/deany-header.svg?v=3" width="100%" alt="Deany Bytes - Where DEANY purpose meets digital BYTES Hero Banner" />
+  <img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/deany-header.svg?v=4" width="100%" alt="Deany Bytes - Where DEANY purpose meets digital BYTES Hero Banner" />
 
   <br/><br/>
 
@@ -54,7 +54,7 @@
 
 <!-- Animated Vector Islamic Terminal HUD -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/terminal.svg?v=2" width="100%" alt="Deany Bytes Terminal HUD - Islamic Tech &amp; Digital Dawah Console" />
+  <img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/terminal.svg?v=3" width="100%" alt="Deany Bytes Terminal HUD - Islamic Tech &amp; Digital Dawah Console" />
 </div>
 
 <br/>
