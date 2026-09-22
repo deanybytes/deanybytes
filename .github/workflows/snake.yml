@@ -1,9 +1,9 @@
-name: Generate Snake
+name: Generate Snake Animation
 
 on:
   schedule:
-    # Run every 24 hours at midnight UTC
-    - cron: "0 0 * * *"
+    # Run every 4 hours to keep contribution grid fresh
+    - cron: "0 */4 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -11,6 +11,7 @@ on:
 
 jobs:
   build:
+    name: Build & Deploy Snake Grid
     runs-on: ubuntu-latest
     permissions:
       contents: write
