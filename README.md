@@ -73,13 +73,23 @@
 
   <br/><br/>
 
-  <!-- High-Impact Repository Badges -->
+  <!-- High-Impact Architecture Badges -->
   <p align="center">
     <a href="https://github.com/deanybytes/QuranicWords"><img src="https://img.shields.io/badge/PLATFORM-ANDROID%20OFFLINE-02140D?style=for-the-badge&logo=android&logoColor=00FF9D&labelColor=062E1E" alt="Platform: Android Offline"/></a>
     <a href="https://github.com/deanybytes/QuranicWords"><img src="https://img.shields.io/badge/ARCHITECTURE-KOTLIN%20COMPOSE-02140D?style=for-the-badge&logo=kotlin&logoColor=34D399&labelColor=062E1E" alt="Architecture: Kotlin &amp; Compose"/></a>
     <a href="https://github.com/deanybytes/QuranicWords"><img src="https://img.shields.io/badge/MEMORY%20MODEL-LEITNER%20SRS-02140D?style=for-the-badge&logo=brainz&logoColor=00FF9D&labelColor=062E1E" alt="Memory Model: Leitner SRS"/></a>
     <a href="https://github.com/deanybytes/QuranicWords"><img src="https://img.shields.io/badge/DATABASE-ROOM%20SQLITE-02140D?style=for-the-badge&logo=sqlite&logoColor=34D399&labelColor=062E1E" alt="Database: Room SQLite"/></a>
     <a href="https://github.com/deanybytes/QuranicWords"><img src="https://img.shields.io/badge/LICENSE-GPL--3.0-02140D?style=for-the-badge&logo=opensourceinitiative&logoColor=00FF9D&labelColor=062E1E" alt="License: GPL-3.0"/></a>
+  </p>
+
+  <!-- Live Repository Stats & Contribution Telemetry -->
+  <p align="center">
+    <a href="https://github.com/deanybytes/QuranicWords/stargazers"><img src="https://img.shields.io/github/stars/deanybytes/QuranicWords?style=for-the-badge&logo=github&logoColor=00FF9D&color=02140D&labelColor=062E1E&label=REPO%20STARS%20%E2%98%85" alt="QuranicWords GitHub Stars"/></a>
+    <a href="https://github.com/deanybytes/QuranicWords/network/members"><img src="https://img.shields.io/github/forks/deanybytes/QuranicWords?style=for-the-badge&logo=git&logoColor=34D399&color=02140D&labelColor=062E1E&label=FORKS" alt="QuranicWords Forks"/></a>
+    <a href="https://github.com/deanybytes/QuranicWords/watchers"><img src="https://img.shields.io/github/watchers/deanybytes/QuranicWords?style=for-the-badge&logo=github&logoColor=00FF9D&color=02140D&labelColor=062E1E&label=WATCHERS" alt="QuranicWords Watchers"/></a>
+    <a href="https://github.com/deanybytes/QuranicWords/issues"><img src="https://img.shields.io/github/issues/deanybytes/QuranicWords?style=for-the-badge&logo=github&logoColor=34D399&color=02140D&labelColor=062E1E&label=ISSUES" alt="QuranicWords Issues"/></a>
+    <a href="https://github.com/deanybytes/QuranicWords"><img src="https://img.shields.io/github/repo-size/deanybytes/QuranicWords?style=for-the-badge&logo=database&logoColor=00FF9D&color=02140D&labelColor=062E1E&label=CODEBASE" alt="QuranicWords Code Size"/></a>
+    <a href="https://github.com/deanybytes/QuranicWords/commits/main"><img src="https://img.shields.io/github/last-commit/deanybytes/QuranicWords?style=for-the-badge&logo=git&logoColor=34D399&color=02140D&labelColor=062E1E&label=COMMITS" alt="QuranicWords Last Commit"/></a>
   </p>
 
 </div>
@@ -183,14 +193,54 @@ Niyyah (Intention)  ·  Itqan (Mastery)  ·  Ihsan (Excellence)
 <!-- Animated Islamic Arabesque Divider -->
 <img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/divider.svg?v=30" width="100%" alt="Section Divider" />
 
-### 📊 `[DEVOTION & GITHUB TELEMETRY]`
+### 📊 `[DEVOTION, REPOSITORY TELEMETRY & CONTRIBUTION RADAR]`
 
 <div align="center">
 
-  <!-- GitHub Streak Stats with Pure Islamic Emerald Green Accents -->
-  <a href="https://github.com/deanybytes">
-    <img src="https://streak-stats.demolab.com/?user=deanybytes&theme=dark&background=02140D&border=00FF9D&stroke=00FF9D&ring=00FF9D&fire=00FF9D&currStreakNum=00FF9D&sideNums=34D399&currStreakLabel=00FF9D&sideLabels=6EE7B7&dates=6EE7B7" alt="Deany Bytes GitHub Commit Streak Statistics" />
+  <!-- Animated Vector Telemetry & Contribution Dashboard (Pure All-Green Theme) -->
+  <a href="https://github.com/deanybytes/QuranicWords">
+    <img src="https://raw.githubusercontent.com/deanybytes/deanybytes/main/assets/repo-stats.svg?v=30" width="100%" alt="Deany Bytes Repository Telemetry &amp; Contribution Radar" />
   </a>
+
+  <br/><br/>
+
+  <!-- Interactive Action Ribbons (Starring & Contributing) -->
+  <p align="center">
+    <a href="https://github.com/deanybytes/QuranicWords/stargazers"><img src="https://img.shields.io/badge/%E2%98%85%20STAR%20QURANICWORDS-ON%20GITHUB-02140D?style=for-the-badge&logo=github&logoColor=00FF9D&labelColor=062E1E" alt="Star QuranicWords on GitHub"/></a>
+    <a href="https://github.com/deanybytes/QuranicWords/fork"><img src="https://img.shields.io/badge/%E2%91%82%20FORK%20%26%20CONTRIBUTE-UMMAH%20OPEN%20SOURCE-02140D?style=for-the-badge&logo=git&logoColor=34D399&labelColor=062E1E" alt="Fork and Contribute"/></a>
+    <a href="https://github.com/deanybytes/QuranicWords/issues"><img src="https://img.shields.io/badge/%E2%96%B6%20REPORT%20AN%20ISSUE-DAWAH%20FEEDBACK-02140D?style=for-the-badge&logo=github&logoColor=00FF9D&labelColor=062E1E" alt="Report an Issue"/></a>
+    <a href="https://github.com/deanybytes/QuranicWords/releases"><img src="https://img.shields.io/badge/%E2%97%86%20DOWNLOAD%20APK-LATEST%20RELEASE-02140D?style=for-the-badge&logo=android&logoColor=34D399&labelColor=062E1E" alt="Download APK"/></a>
+  </p>
+
+  <br/>
+
+  <!-- Dual Stream Telemetry: Commit Streak & QuranicWords Pinned Telemetry -->
+  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+    <tr valign="top">
+      <td align="center" width="50%">
+        <a href="https://github.com/deanybytes">
+          <img src="https://streak-stats.demolab.com/?user=deanybytes&theme=dark&background=02140D&border=00FF9D&stroke=00FF9D&ring=00FF9D&fire=00FF9D&currStreakNum=00FF9D&sideNums=34D399&currStreakLabel=00FF9D&sideLabels=6EE7B7&dates=6EE7B7" width="100%" alt="Deany Bytes GitHub Commit Streak Statistics" />
+        </a>
+      </td>
+      <td align="center" width="50%">
+        <a href="https://github.com/deanybytes/QuranicWords">
+          <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=deanybytes&repo=QuranicWords&bg_color=02140D&title_color=00FF9D&text_color=A7F3D0&icon_color=34D399&border_color=00FF9D&show_owner=true" width="100%" alt="QuranicWords Flagship Repo Pin" />
+        </a>
+      </td>
+    </tr>
+  </table>
+
+  <br/>
+
+  <!-- Star History & Growth Trajectory Accordion -->
+  <details>
+    <summary><b>📈 [CLICK TO EXPAND // STAR HISTORY &amp; GROWTH TRAJECTORY]</b></summary>
+    <br/>
+    <a href="https://star-history.com/#deanybytes/QuranicWords&Date">
+      <img src="https://api.star-history.com/svg?repos=deanybytes/QuranicWords&type=Date&theme=dark" width="100%" alt="QuranicWords Star History &amp; Growth Trajectory" />
+    </a>
+    <p align="center"><sub>Live stargazers trajectory for <a href="https://github.com/deanybytes/QuranicWords">deanybytes/QuranicWords</a> • Stargazing accelerates Dawah &amp; Ummah reach</sub></p>
+  </details>
 
 </div>
 
